@@ -25,7 +25,7 @@ header{
     align-items: center;
 }
 
-.logo a{
+a{
     text-decoration: none;
 }
 
@@ -60,7 +60,6 @@ header{
     position: absolute;
     background-color: #f9f9f9;
     width: 200px;
-    margin-top: 10px;
     border: 1px solid black;
 }
 
@@ -104,6 +103,7 @@ header{
     height: 100%;
     font-size: 18px;
     margin: 0px 10px;
+    color: rgb(192, 192, 192);
 }
 
 .search input[name="text"]{
@@ -115,3 +115,38 @@ header{
     font-size: 18px;
     outline: none;
 }
+
+.acount{
+    display: flex;
+    margin-left: 60px;
+}
+
+.sign-in, .create-acount{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.sign-in{
+    width: 75px;
+}
+
+.create-acount{
+    width: 135px;
+    background-color: rgb(255, 127, 227);
+}
+
+.sign-in:hover{
+    background-color: rgb(207, 205, 205);
+}
+
+.create-acount:hover{
+    background-color: rgb(235, 115, 209);
+}
+
