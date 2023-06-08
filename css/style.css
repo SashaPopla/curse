@@ -152,6 +152,11 @@ a{
     background-color: rgb(235, 115, 209);
 }
 
+.fi-text{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
 .navbar{
     padding: 0px 50px;
     width: 100%;
