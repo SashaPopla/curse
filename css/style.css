@@ -152,3 +152,12 @@ a{
     background-color: rgb(235, 115, 209);
 }
 
+.navbar{
+    padding: 0px 50px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
