@@ -226,3 +226,43 @@ a{
     width: 500px;
     height: 400px;
 }
+
+.prospects{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #dfdada73;
+}
+
+.prospects_block{
+    width: 395px;
+    height: 64px;
+    display: flex;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7a777736;
+    font-size: 18px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.prospects_text-content{
+    margin-left: 10px;
+    width: 310px;
+    height: 65px;
+    font-weight: 500;
+    font-size: 18px;
+    overflow: hidden;
+}
