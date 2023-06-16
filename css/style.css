@@ -326,6 +326,15 @@ button[type="button"]:hover{
 }
 /* Finish  */
 
+/* Start code product */
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(1fr, auto));
+}
+
+/* Finish code product */
+
 footer{
     width: 100%;
     height: 100px;
