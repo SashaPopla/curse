@@ -5,8 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-sign-in.css">
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../icon/icon.png" alt="Logo"></a>
+            <p class="logo-name"><a href="../index.html">Out-link</a></p>
+        </div>
+
+        <div class="category">
+            <button class="dropbtn">Категорії</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="search">
+            <form action="#" method="post">
+                <button class="searchbtn"><i class="fa fa-search"></i></button>
+                <input type="text" id="text" name="text" placeholder="Шукай що завгодно">
+            </form>
+        </div>
+
+        <div class="category">
+            <button class="dropbtn">Викладач-Out-link</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <button class="dropbtn">Моє навчання</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <button class="dropbtn"><i class="far fa-heart"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <button class="dropbtn"><i class="fa fa-shopping-cart"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="category">
+            <button class="dropbtn"><i class="fi fi-ua"></i></button>
+            <div class="dropdown-content">
+                <span class="fi-text">Російський<a href="#" class="fi fi-ru"></a></span>
+                <span class="fi-text">Англійський<a href="#" class="fi fi-gb"></a></span>
+            </div>
+        </div>
+
+        <div class="acount">
+            <div class="sign-in"><a href="./html/sign-in.html">Увійти</a></div>
+            <div class="create-acount"><a href="./html/create-acount.html">Реєстрація</a></div>
+        </div>
+    </header>
+
+    <section class="wrapper">
+        <div class="wrapper-text">Вход в учетную запись в Out-link</div>
+        
+        <div class="button_sign-in">
+            <button class="sign-in-google" type="button"><i class="fab fa-google"></i>Увійти через акаунт Google</button>
+            <button class="sign-in-google" type="button"><i class="fab fa-apple"></i>Увійти через акаунт Apple Id</button>
+        
+            <form class="form" action="#" method="post">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Введіть ваш Email...">
+
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Введіть ваш пароль...">
+            
+                <button class="btn" type="submit">Увійти</button>
+            </form>
+        </div>
+    </section>
+
+    <footer></footer>
     
 </body>
 </html>
