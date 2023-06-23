@@ -9,10 +9,6 @@
     font-family: Rubik, sans-serif;
 }
 
-.container{
-    width: 1280px;
-}
-
 a{
     text-decoration: none;
     color: #000;
@@ -21,7 +17,7 @@ a{
 .fi-text{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     cursor: pointer;
 }
 
@@ -50,12 +46,12 @@ header{
     font-size: 24px;
 }
 
-.category{
+.category, .multy{
     overflow: hidden;
     margin-left: 35px;
 }
 
-.category .dropbtn{
+.category .dropbtn, .multy .globe{
     margin-left: 25px;
     font-size: 18px;
     background-color: inherit;
@@ -339,4 +335,59 @@ footer{
     width: 100%;
     height: 100px;
     background: #00000052;
+}
+
+/* Style for modale window */
+
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .56);
+    top: 0;
+    display: none;
+}
+
+.modale{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 720px;
+    max-height: 240px;
+    background: #d1cfcf;
+    padding: 38px 20px;
+}
+
+.modale .modale_close{
+    position: absolute;
+    top: 0;
+    right: -40px;
+    font-size: 41px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #fff; 
+}
+
+.modale .modale_subtitle{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.modale .modale_lang{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modale .modale_lang span{
+    width: 150px;
+    font-size: 19px;
+    height: 23px;
+}
+
+.modale .modale_lang span a{
+    width: 28px;
+    height: 18px;
 }
