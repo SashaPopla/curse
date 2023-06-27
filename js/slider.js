@@ -1,5 +1,6 @@
 "use strict";
 
+/* slider */
 const SubheaderContent = [
     "1 ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corrupti molestiae quo consectetur quasi magni! Ut libero vero pariatur consequatur. Illo id nihil officiis ipsam maxime eveniet. Soluta, tenetur reprehenderit!",
     "2 ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corrupti molestiae quo consectetur quasi magni! Ut libero vero pariatur consequatur. Illo id nihil officiis ipsam maxime eveniet. Soluta, tenetur reprehenderit!"
@@ -31,3 +32,14 @@ let slider = setInterval(function log() {
     }
 
 }, 5000);
+/* end slider */
+
+/* choose learning */
+
+const blockForBnts = document.querySelector('.choice_courses_btn'),
+    btns = blockForBnts.querySelectorAll('button'),
+    arrLessons = [ ...document.querySelectorAll('.courses_learne') ];
+
+console.log(btns);
+console.log(arrLessons);
+/* end  */
