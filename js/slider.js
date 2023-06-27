@@ -18,7 +18,7 @@ const blockSlider = document.querySelector("#slider"),
     blockSliderText = blockSlider.querySelector('.slider_content-text'),
     blockSliderImage = blockSlider.querySelector(".slider_image");
 
-let frame = 0;
+let frame = 1;
 let slider = setInterval(function log() {
 
     if (frame == arrImage.length)

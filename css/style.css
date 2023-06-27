@@ -227,6 +227,7 @@ header{
 .slider_image{
     width: 500px;
     height: 400px;
+    background: url('../img/slider/picture-one.png') center center/cover no-repeat;
 }
 /* Finish code sider */
 
