@@ -1,17 +1,20 @@
 "use strict";
 
-const btnGlobe = document.querySelector(".globe"), 
+const btnsGlobe = document.querySelectorAll(".globe"), 
     btnClose = document.querySelector(".modale_close");
 
-btnGlobe.addEventListener('click', () => {
-    let modaleWin = document.querySelector(".overlay");
-    modaleWin.style.display = 'block';
+
+btnsGlobe.forEach((item)=>{
+    item.addEventListener('click', () => {
+        let modaleWin = document.querySelector(".overlay");
+        modaleWin.style.display = 'block';
+    });
 });
 
 btnClose.addEventListener('click', () => {
     let modaleWin = document.querySelector(".overlay");
     modaleWin.style.display = 'none';
-});
+}); 
 
 /* choose learning */
 const blockForBnts = document.querySelector('.choice_courses_btn'),
