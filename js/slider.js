@@ -1,6 +1,5 @@
 "use strict";
 
-/* slider */
 const SubheaderContent = [
     "1 ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corrupti molestiae quo consectetur quasi magni! Ut libero vero pariatur consequatur. Illo id nihil officiis ipsam maxime eveniet. Soluta, tenetur reprehenderit!",
     "2 ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corrupti molestiae quo consectetur quasi magni! Ut libero vero pariatur consequatur. Illo id nihil officiis ipsam maxime eveniet. Soluta, tenetur reprehenderit!"
@@ -10,8 +9,8 @@ const SubheaderContent = [
         "Lorem 2 dolor sit amet consectetur, adipisicing elit. Vitae ut molestiae perspiciatis sed ipsam laborum commodi culpa non repudiandae cupiditate magnam sequi pariatur excepturi repellat, est voluptatem officia aperiam quam."
     ],
     arrImage = [
-        "../img/slider/picture-one.png",
-        "../img/slider/picture-two.png"
+        "./img/slider/picture-one.png",
+        "./img/slider/picture-two.png"
     ];
 
 const blockSlider = document.querySelector("#slider"),
@@ -19,8 +18,8 @@ const blockSlider = document.querySelector("#slider"),
     blockSliderText = blockSlider.querySelector('.slider_content-text'),
     blockSliderImage = blockSlider.querySelector(".slider_image");
 
-let frame = 1;
-let slider = setInterval(function log() {
+let frame = 1,
+    slider = setInterval(function log() {
 
     if (frame == arrImage.length)
         frame = 0;
@@ -32,14 +31,3 @@ let slider = setInterval(function log() {
     }
 
 }, 5000);
-/* end slider */
-
-/* choose learning */
-
-const blockForBnts = document.querySelector('.choice_courses_btn'),
-    btns = blockForBnts.querySelectorAll('button'),
-    arrLessons = [ ...document.querySelectorAll('.courses_learne') ];
-
-console.log(btns);
-console.log(arrLessons);
-/* end  */
