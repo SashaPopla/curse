@@ -231,14 +231,14 @@ header{
 }
 /* Finish code sider */
 
-/* Start code choice of courses */
-.choice_courses{
+/* Start code choose of courses */
+.choose_courses{
     width: 100%;
     min-height: 580px;
     padding: 10px 10px;
 }
 
-.choice_courses_subheader h2{
+.choose_courses_subheader h2{
     text-transform: uppercase;
     font-size: 32px;
     font-weight: 600;
@@ -246,7 +246,7 @@ header{
     overflow: hidden;
 }
 
-.choice_courses_btn{
+.choose_courses_btn{
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -273,13 +273,13 @@ button[type="button"]:hover{
     font-weight: 500;
 }
 
-.choice_courses_lessons{
+.choose_courses_lessons{
     width: 100%;
     min-height: 470px;
     border: 1px solid darkgrey;
 }
 
-/* Finish code choice of courses */
+/* Finish code choose of courses */
 
 /* Start  */
 .prospects{
@@ -323,10 +323,8 @@ button[type="button"]:hover{
 }
 /* Finish  */
 
-/* Start code product */
 
-/* Finish code product */
-
+/* start footer */
 footer{
     width: 100%;
     min-height: 210px;
@@ -391,8 +389,9 @@ footer{
 .footer_nav .logo a, .footer_nav p{
     color: #fff;
 }
-/* Style for modale window */
+/* end footer */
 
+/* Style for modale window */
 .overlay{
     position: fixed;
     width: 100%;
