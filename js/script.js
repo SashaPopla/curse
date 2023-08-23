@@ -26,10 +26,11 @@ console.log(btns);
 console.log(arrLessons);
 
 btns.forEach((item)=>{
-    item.addEventListener("click", ()=>{
-        if(item.innerText !== "C#")
+    item.addEventListener("click", (e)=>{
+        console.log(e.target);
+        /*if(item.innerText !== "C#")
             console.log("It`s not C#");
-        console.log(item);
+        console.log(item);*/
     });
 });
 /* end  */

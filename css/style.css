@@ -198,7 +198,7 @@ header{
 }
 
 .slider_content{
-    background-color: #fff;
+    background-color: transparent;
     width: 420px;
     min-height: 110px;
     max-height: 220px;
