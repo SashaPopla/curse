@@ -252,7 +252,7 @@ header{
     justify-content: flex-start;
 }
 
-button[type="button"]{
+.choose_btn{
     margin-left: 10px;
     min-width: 50px;
     min-height: 35px;
@@ -263,13 +263,12 @@ button[type="button"]{
     cursor: pointer;
 }
 
-button[type="button"]:first-child{
+.choose_btn:first-child{
     margin: 0;
     padding: 0;
 }
 
-button[type="button"]:hover{
-    font-size: 24px;
+.choose_btn:hover, .active{
     font-weight: 500;
 }
 
